@@ -1,0 +1,84 @@
+{
+  "payload": {
+    "dbHeader": {
+      "dbPaymentTransactionIdentificationUUID": "SAMPLE_HS_TRN4",
+      "senderNARID": "173251-1",
+      "eventType": "completion"
+    },
+    "paymentData": {
+      "transactionInformation": {
+        "accountServiceReference": "SAMPLE_ACCOUNT_SERVICE_REFERENCE",
+        "paymentIdentification": {
+          "UETR": "PAYMENT_UETR_001",
+          "endtoendidentification": "END_TO_END_ID_001",
+          "instructionidentification": "INSTRUCTION_ID_001"
+        },
+        "interbankSettlementAmount": {
+          "amount": "100.00",
+          "amountCurrency": "JPY"
+        },
+        "returnedInterbankSettlementAmount": {
+          "amount": "100.00",
+          "amountCurrency": "JPY"
+        },
+        "amount": {
+          "instructedAmount": {
+            "amount": "100.00",
+            "amountCurrency": "JPY"
+          }
+        },
+        "agent": [
+          {
+            "role": "debtor",
+            "financialInstitutionIdentification": {
+              "BIC": "AAAAJPXXXXX",
+              "postalAddress": {
+                "country": "JP"
+              }
+            }
+          },
+          {
+            "role": "creditor",
+            "financialInstitutionIdentification": {
+              "BIC": "BBBBGBXXXXXX",
+              "postalAddress": {
+                "country": "GB"
+              }
+            }
+          },
+          {
+            "role": "debtorAgent",
+            "financialInstitutionIdentification": {
+              "BIC": "AAAAJPXX",
+              "postalAddress": {
+                "country": "JP"
+              }
+            }
+          },
+          {
+            "role": "creditorAgent",
+            "financialInstitutionIdentification": {
+              "BIC": "BBBBGBXX",
+              "postalAddress": {
+                "country": "GB"
+              }
+            }
+          }
+        ],
+        "financialInstitutionIdentification": {
+          "BIC": "BBBBGBXXXX",
+          "postalAddress": {
+            "country": "GB"
+          }
+        }
+      }
+    },
+    "processingData": {
+      "processingEngineNARID": "222-9",
+      "paymentProcessingMethodType": "BKE"
+    },
+    "status": {
+      "transactionStatus": "ACCP"
+    }
+  }
+}

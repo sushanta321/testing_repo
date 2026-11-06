@@ -1,0 +1,19 @@
+
+{
+  "hs_trn1": "SAMPLE_HS_TRN1",
+  "hs_trn2": "SAMPLE_HS_TRN2",
+  "hs_trn3": "SAMPLE_HS_TRN3",
+  "hs_trn4": "SAMPLE_HS_TRN4",
+  "hs_trn5": "SAMPLE_HS_TRN5",
+  "hs_trn6": "SAMPLE_HS_TRN6",
+  "hs_trn7": "SAMPLE_HS_TRN7",
+  "hs_trn8": "SAMPLE_HS_TRN8",
+  "hs_trn9": "SAMPLE_HS_TRN9",
+  "hs_pmtid_uetr": "SAMPLE_HS_PMTID_UETR",
+  "hs_field21": "SAMPLE_HS_FIELD21",
+  "hs_field20": "SAMPLE_HS_FIELD20",
+  "hs_amount": "100.00",
+  "hs_inputcurrency": "JPY",
+  "hs_dataresidencycountry": "JP",
+  "hs_mappedlocationname": "JP1"
+}
